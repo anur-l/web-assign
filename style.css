@@ -1,4 +1,51 @@
-*{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   background-color: black;
   color: white;
+  font-family: Arial, sans-serif;
+  padding: 0.3rem;
 }
+
+.topic header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2 rem;
+  background-color:#111111;
+}
+
+.topic header h1{
+ padding-top: 0.3rem;
+ padding-right: 1rem; 
+ color: #ddd;
+ text-decoration: none;
+ font-size: 2rem; 
+}
+
+.topic header a{
+ text-decoration: none;
+}
+.topic header a:hover{
+  
+ background-color: green;
+ text-decoration: none;
+ border-radius: 3px; 
+}
+.topic nav h1 {
+}
+.topic nav a {
+  padding: 0.2rem;
+  margin-left: 0.9;
+  margin-right: 0.9;
+  background-color: #009900;
+  border-radius: 9px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
