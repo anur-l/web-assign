@@ -4,19 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <title>Compare</title>
 </head>
 
 <body>
-    <div class="topic">
-  <header>
-    <h1>C vs Python</h1>
-    <nav><a href="./index.html">Home</a>
-      <a href="./project.html">project</a>
-    </nav>
-  </header>
-    </div>
+  <div class="topic">
+    <header>
+      <h1>C vs Python</h1>
+      <nav><a href="./index.html">Home</a>
+        <a href="./project.html">project</a>
+      </nav>
+    </header>
+  </div>
   <main>
     <section>
       <h2>How C is compare to python</h2>
@@ -67,48 +67,55 @@
     </section>
     <section>
       <h3>When to use C and Python</h3>
-      <h4><ins>C</inst>
-      </h4>
-      <p>C is strong in these areas:</p>
-      <ol>
-        <li>Operating systems (Linux kernel still written in C)</li>
-        <li>Embedded systems and microcontrollers (IoT devices)</li>
-        <li>Cybersecurity (malware analysis, exploit development)</li>
-        <li>High-performance tools (compilers, interpreters, databases)
-        <li>Robotics and real-time systems</li>
-      </ol>
-      <p>If every millisecond matters, C wins</p>
-      <h4><ins>Python</inst>
-      </h4>
-      <p>Python is strong in:</p>
-      <ol>
-        <li>Machine learning (TensorFlow, PyTorch)</li>
-        <li>Data science & data analysis</li>
-        <li>Cybersecurity scripting</li>
-        <li>Web development (Django / Flask)</li>
-        <li>Automation & DevOps</li>
-        <li>Prototyping software quickly</li>
-        <li>API backends</li>
-        <p>If time-to-build is important, Python wins</p>
+      <div class="usecase">
+        <h4><ins>C</inst>
+        </h4>
+        <p>C is strong in these areas:</p>
         <ol>
+          <li>Operating systems (Linux kernel still written in C)</li>
+          <li>Embedded systems and microcontrollers (IoT devices)</li>
+          <li>Cybersecurity (malware analysis, exploit development)</li>
+          <li>High-performance tools (compilers, interpreters, databases)
+          <li>Robotics and real-time systems</li>
+        </ol>
+        <p>If every millisecond matters, C wins</p>
+      </div>
+      <div class="usecase">
+        <h4><ins>Python</inst>
+        </h4>
+        <p>Python is strong in:</p>
+        <ol>
+          <li>Machine learning (TensorFlow, PyTorch)</li>
+          <li>Data science & data analysis</li>
+          <li>Cybersecurity scripting</li>
+          <li>Web development (Django / Flask)</li>
+          <li>Automation & DevOps</li>
+          <li>Prototyping software quickly</li>
+          <li>API backends</li>
+          <p>If time-to-build is important, Python wins</p>
+          <ol>
+      </div>
+      </div>
     </section>
     <hr>
     <section>
       <form>
-        <label for="pefer">Which do you prefer?</label>
-        <br>
-        <label>Python
-          <input type="radio" name="pefer" value="C"></input>
-        </label>
+        <div class="radi">
+          <label for="pefer">Which do you prefer?</label>
+          <br>
+          <label>Python
+            <input type="radio" name="pefer" value="C"></input>
+          </label>
 
-        <label>C-programming
-          <input type="radio" name="pefer" value="C"></input>
-        </label>
-        <label>Other
-          <input type="radio" name="pefer"></input>
-        </label>
+          <label>C-programming
+            <input type="radio" name="pefer" value="C"></input>
+          </label>
+          <label>Other
+            <input type="radio" name="pefer"></input>
+          </label>
+        </div>
         <br><br>
-        <label for="Feedback">Why do you perfer these programming language? <br></label>
+        <label for="Feedback">Why do you prefer this programming language? <br></label>
         <input type="text" name="feedback" placeholder="Short opinion (max 50 chars)" minlength="7"
           maxlength="50"></input>
         <br>
