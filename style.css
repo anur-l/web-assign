@@ -15,16 +15,31 @@ body {
   background-color: black;
   color: white;
   font-family: Arial, sans-serif;
-  padding: 0.3rem;
   font-size: 1.1rem;
 }
+
+a{
+ color: #009900;
+ text-decoration: none;
+}
+a:hover{
+ color: #00aaff;
+}
+footer{
+ padding-top: 3rem;
+ background-color:#121121; 
+}
+footer p {
+ text-align: center;
+}
+
 
 .topic header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 2 rem;
-  background-color: #111111;
+  background-color: #0f191f;
 }
 
 .topic header h1 {
@@ -206,3 +221,12 @@ p {
   background-color: green;
   color: white;
 }
+
+.comp h3,h4{
+  padding-left: 2rem;
+  paddinf-bottom: 2rem;
+}
+.comp ol{
+  padding-left: 2rem;
+}
+
