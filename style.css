@@ -6,7 +6,8 @@
 }
 
 h2,
-h1,h3 {
+h1,
+h3 {
   padding: 1rem;
 }
 
@@ -51,7 +52,7 @@ td {
 
 thead,
 tfoot {
- background-color: #121121;
+  background-color: #121121;
 }
 
 tfoot td {
@@ -254,16 +255,79 @@ p {
   gap: 30px;
   padding: 3em;
 }
-.u_usecase h3{
- padding-top: 2rem;
+
+.u_usecase h3 {
+  padding-top: 2rem;
 }
+
 .usecase {
-    padding: 2rem;
-    border-radius: 7px;
-    border: 1px solid #ddd;
+  padding: 2rem;
+  border-radius: 7px;
+  border: 1px solid #ddd;
 }
 
-form{
- padding-top: 1rem;
+.picking_r {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.4rem;
+  gap: 3px;
+  font-size: 1rem;
 }
 
+.radio_input {
+  width: 20px;
+  height: 10px;
+  accent-color: green;
+  padding: 1rem;
+}
+
+.feedback_label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 500px;
+  margin-bottom: 0.5rem;
+}
+
+.feedback_textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.7rem 0.9rem;
+  font-size: 16px;
+  border: 2px solid #208720;
+  outline: none;
+}
+
+.check_lang {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.check_lang input {
+  margin-right: 6px;
+  accent-color: green;
+}
+
+.check_lang {
+  margin-bottom: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.check_lang input {
+  margin-right: 6px;
+  accent-color: green;
+  transform: scale(1.1)
+}
+.sub {
+  width: 100%;
+  padding: 12px;
+  background-color: #00af00;
+  color: white;
+  border-radius: 9px;
+  cursor: pointer;
+  margin-top: 1rem;
+}

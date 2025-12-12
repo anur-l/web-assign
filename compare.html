@@ -100,50 +100,58 @@
     <hr>
     <section>
       <form>
-        <div class="radi">
-          <label for="pefer">Which do you prefer?</label>
-          <br>
-          <label>Python
-            <input type="radio" name="pefer" value="C"></input>
+        <div class="radio">
+          <label class="ques1">Which do you prefer?</label>
+
+          <label for="pref-c" class="picking_r">
+            <input type="radio" name="prefer" id="pref-c" value="C-programming" class="radio_input">
+            C-programming
           </label>
 
-          <label>C-programming
-            <input type="radio" name="pefer" value="C"></input>
+          <label for="pref-py" class="picking_r">
+            <input type="radio" name="prefer" id="pref-py" value="Python" class="radio_input">
+            Python
           </label>
-          <label>Other
-            <input type="radio" name="pefer"></input>
+
+          <label for="pref-other" class="picking_r">
+            <input type="radio" name="prefer" id="pref-other" value="Other" class="radio_input">
+            Other
           </label>
         </div>
-        <br><br>
-        <label for="Feedback">Why do you prefer this programming language? <br></label>
-        <input type="text" name="feedback" placeholder="Short opinion (max 50 chars)" minlength="7"
-          maxlength="50"></input>
-        <br>
-        <label for="picking-language">Which programming language do you use?</label><br>
-        <label>C
-          <input type="checkbox" name="Chooseing-programming Lanugage" value="C">
-        </label>
-        <label>C++
-          <input type="checkbox" name="Chooseing-programming Lanugage" value="C++">
-        </label>
-        <label>Python
-          <input type="checkbox" name="Chooseing-programming Lanugage" value="Python">
-        </label>
-        <label>Java
-          <input type="checkbox" name="Chooseing-programming Lanugage" value="Java">
-        </label>
-        <label>Swift
-          <input type="checkbox" name="Chooseing-programming Lanugage" value="Swift">
-        </label>
-        <label>Web-lanuguage
-          <input type="checkbox" name="Chooseing-programming Lanugage" value="Web">
-        </label>
-        <label>Go
-          <input type="checkbox" name="Chooseing-programming Lanugage" value="GO">
-        </label>
-        <br>
-        <input type="submit"></input>
+        <div>
+          <label for="feedback" class="feedback_label">Why do you prefer this programming language? <br>
+          </label>
+          <textarea name="feedback" name="feedback" placeholder="Short opinion" minlength="7" maxlength="200"
+            class="feedback_textarea"></textarea>
+          <br>
+        </div>
+        <div>
+          <label for="picking-language">Which programming language do you use?</label><br>
+          <label class="check_lang">C
+            <input type="checkbox" name="P_language" value="C">
+          </label>
+          <label class="check_lang">C++
+            <input type="checkbox" name="P_language" value="C++">
+          </label>
+          <label class="check_lang">Python
+            <input type="checkbox" name="P_language" value="Python">
+          </label>
+          <label class="check_lang">Java
+            <input type="checkbox" name="P_language" value="Java">
+          </label>
+          <label class="check_lang">Swift
+            <input type="checkbox" name="P_language" value="Swift">
+          </label>
+          <label class="check_lang">Web-lanuguage
+            <input type="checkbox" name="P_language" value="Web">
+          </label>
+          <label class="check_lang">Go
+            <input type="checkbox" name="P_language" value="GO">
+          </label>
 
+        </div>
+        <br>
+          <input type="submit" class="sub" value="Submit"></input>
       </form>
 
     </section>
