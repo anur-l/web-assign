@@ -5,12 +5,16 @@
   box-sizing: border-box;
   
 }
+h1,h2,h1{
+ padding: 1rem;
+}
 
 body {
   background-color: black;
   color: white;
   font-family: Arial, sans-serif;
   padding: 0.3rem;
+  font-size: 1.1rem;
 }
 
 .topic header {
@@ -71,8 +75,7 @@ body {
   border-radius: 15px;
   padding: 1.5em;
   gap: 1em;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
 }
 .project img {
   width: 100%;
@@ -105,4 +108,83 @@ body {
 }
 p {
  font-size: 1rem;
+}
+
+.skills {
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px 0;
+  color: white;
+}
+
+.skills h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.skills p {
+  text-align: center;
+  font-size:1.2rem;
+  margin-bottom: 20px;
+}
+.skills ul{
+  list-style: none;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+ }
+.skills li {
+  padding: 1rem 2rem;
+  text-align: center;
+  color: #000000;
+  background-color: darkgreen;
+  border: 2px solid white;
+  border-radius: 9px;
+  min-width: 200px;
+
+}
+
+.homep p{
+ padding: 2rem; 
+ font-size: 1rem;
+}
+.choosing ul {
+  list-style: none;
+}
+.choosing li {
+
+  padding: 1rem ;
+  min-width: 200px;
+}
+.resource  h2 {
+    font-size: 2em;
+    color: #efeefe;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.9rem;
+    margin-top: 1rem; 
+}
+.resource p{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+.resource ul{
+ display: flex;
+ flex-wrap: wrapp;
+ gap: 3rem;
+ justify-content: space-evenly; 
+ align-items: center; 
+}
+.resource li{
+  padding-top: 1rem;
+ list-style: none;
+  padding-bottom: 2rem;
+  border: 2px solid white;
+}
+.resource a{
+ text-decoration: none; 
+  color: green;
+
 }
