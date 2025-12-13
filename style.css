@@ -26,7 +26,7 @@ p {
 }
 
 a {
-  color: #00ff7f;
+  color: #61ff00;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ a:hover {
 footer {
   padding-top: 3rem;
   padding-bottom: 2rem;
-  background-color: #121121;
+  background-color: #222222;
 }
 
 footer p {
@@ -45,10 +45,13 @@ footer p {
 }
 
 table {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  width: 80%;
   border-collapse: collapse;
   margin-top: 1em;
-  border: 1px solid #333;
+  border: 3px solid #333;
 }
 
 th,
@@ -59,11 +62,11 @@ td {
 
 thead,
 tfoot {
-  background-color: #121121;
+  background-color: #222222;
 }
 
 tfoot td {
-  color: red;
+  color: #ffffff;
 }
 
 form {
@@ -108,7 +111,7 @@ img {
 }
 
 .topic header a:hover {
-  background-color: green;
+  background-color: #555555;
   text-decoration: none;
   border-radius: 3px;
 }
@@ -117,7 +120,7 @@ img {
   padding: 0.2rem;
   margin-left: 0.9;
   margin-right: 0.9;
-  background-color: #11cc22;
+  background-color: #888888;
   border-radius: 9px;
   text-decoration: none;
   color: white;
@@ -168,7 +171,7 @@ img {
 .project h3 {
   font-size: 1.5em;
   font-weight: 700;
-  color: #00ff7f;
+  color: #8a9a5b;
   padding-bottom: 0.5em;
   border-bottom: 2px solid #333;
   margin-bottom: 1em;
@@ -209,7 +212,7 @@ img {
   padding: 1rem 2rem;
   text-align: center;
   color: #000000;
-  background-color: darkgreen;
+  background-color: #8a9a5b;
   border: 2px solid white;
   border-radius: 9px;
   min-width: 200px;
@@ -261,19 +264,21 @@ img {
   border-radius: 9px;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
-  background-color: #1a1a1a;
+  background-color: #999999;
   text-decoration: none;
-  color: #00770f;
+  color: #121211;
 }
 
 .resource a:hover {
-  background-color: green;
-  color: white;
+  background-color: #8a9a5b;
+  color: black;
 }
-.ucomp{
+
+.ucomp {
   font-size: 1.5rem;
- text-align: center;
+  text-align: center;
 }
+
 .comp {
   display: flex;
   justify-content: center;
@@ -288,6 +293,11 @@ img {
 .comp li {
   margin-bottom: 1rem;
   flex: 1;
+}
+
+.comp_header {
+  text-align: center;
+  font-size: 1.3rem;
 }
 
 .u_usecase {

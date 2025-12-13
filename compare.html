@@ -11,7 +11,9 @@
 <body>
   <div class="topic">
     <header>
-      <a href="./index.html" class="return"><h1>My portfolio</h1></a>
+      <a href="./index.html" class="return">
+        <h1>My portfolio</h1>
+      </a>
       <nav><a href="./index.html">Home</a>
         <a href="./project.html">project</a>
       </nav>
@@ -19,14 +21,14 @@
   </div>
   <main>
     <section>
-       <h2>C and Python</h2> 
+      <h2>C and Python</h2>
       <h3>How C is compare to python</h3>
       <p>C vs Python both are programming language, but they serve different purpose. C Compile directly to machine code
         directly using compiler like gcc or clangd While Python use Interpreted language</p>
 
     </section>
     <section>
-      <h4>Comparing C and python</h4>
+      <h4 class="comp_header">Comparing C and python</h4>
       <table border="2" width="900px">
         <thead>
           <tr>
@@ -63,41 +65,49 @@
             <td>Automatic garbage collection</td>
           </tr>
         </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">
+                <b>Conclusion:</b> C is superior for low-level systems programming, while Python excels in application
+              development and data science due to its speed and simplicity.
+            </td>
+          </tr>
+        </tfoot>
       </table>
       <hr>
     </section>
     <section>
-      <br>  
-      <h4>When to use C and Python</h4>
+      <br>
+      <h4 class="comp_header">When to use C and Python</h4>
       <div class="u_usecase">
-      <div class="usecase">
-        <h4><ins>C</inst>
-        </h4>
-        <p>C is strong in these areas:</p>
-        <ol>
-          <li>Operating systems (Linux kernel still written in C)</li>
-          <li>Embedded systems and microcontrollers (IoT devices)</li>
-          <li>Cybersecurity (malware analysis, exploit development)</li>
-          <li>High-performance tools (compilers, interpreters, databases)
-          <li>Robotics and real-time systems</li>
-        </ol>
-        <p>If every millisecond matters, C wins</p>
-      </div>
-      <div class="usecase">
-        <h4><ins>Python</inst>
-        </h4>
-        <p>Python is strong in:</p>
-        <ol>
-          <li>Machine learning (TensorFlow, PyTorch)</li>
-          <li>Data science & data analysis</li>
-          <li>Cybersecurity scripting</li>
-          <li>Web development (Django / Flask)</li>
-          <li>Automation & DevOps</li>
-          <li>Prototyping software quickly</li>
-          <li>API backends</li>
-          <p>If time-to-build is important, Python wins</p>
+        <div class="usecase">
+          <h4><ins>C</inst>
+          </h4>
+          <p>C is strong in these areas:</p>
           <ol>
-      </div>
+            <li>Operating systems (Linux kernel still written in C)</li>
+            <li>Embedded systems and microcontrollers (IoT devices)</li>
+            <li>Cybersecurity (malware analysis, exploit development)</li>
+            <li>High-performance tools (compilers, interpreters, databases)
+            <li>Robotics and real-time systems</li>
+          </ol>
+          <p>If every millisecond matters, C wins</p>
+        </div>
+        <div class="usecase">
+          <h4><ins>Python</inst>
+          </h4>
+          <p>Python is strong in:</p>
+          <ol>
+            <li>Machine learning (TensorFlow, PyTorch)</li>
+            <li>Data science & data analysis</li>
+            <li>Cybersecurity scripting</li>
+            <li>Web development (Django / Flask)</li>
+            <li>Automation & DevOps</li>
+            <li>Prototyping software quickly</li>
+            <li>API backends</li>
+            <p>If time-to-build is important, Python wins</p>
+            <ol>
+        </div>
       </div>
     </section>
     <hr>
@@ -154,7 +164,7 @@
 
         </div>
         <br>
-          <input type="submit" class="sub" value="Submit"></input>
+        <input type="submit" class="sub" value="Submit"></input>
       </form>
 
     </section>
